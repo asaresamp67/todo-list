@@ -55,7 +55,7 @@ export default class App extends Component {
     return (
       <React.Fragment>
         <div className="container">
-          <div className="row">
+          <div className="row d-flex justify-content-center">
             <div className="col-10 col-md-8 mt-5">
               <h3 className="text-capitalize text-center">todo input</h3>
               <TodoInput
