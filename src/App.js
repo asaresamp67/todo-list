@@ -5,7 +5,7 @@ import TodoInput from "./Components/TodoInput";
 
 export default class App extends Component {
   state = {
-    items: [],
+    items: [{ id: 1, title: "hello" }],
     id: uuidv4(),
     item: "",
     editItem: false,

@@ -14,10 +14,12 @@ export default class TodoInput extends Component {
                 </div>
               </div>
               <input
+                type="text"
                 className="form-control text-capitalize"
                 placeholder="Add todo item"
                 value={item}
                 onChange={handleChange}
+                required
               ></input>
             </div>
             <button className="btn btn-block btn-primary mt-3 text-uppercase">
