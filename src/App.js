@@ -56,7 +56,7 @@ export default class App extends Component {
       <React.Fragment>
         <div className="container">
           <div className="row d-flex justify-content-center">
-            <div className="col-10 col-md-8 mt-5">
+            <div className="col-md-8 mt-5">
               <h3 className="text-capitalize text-center">todo input</h3>
               <TodoInput
                 item={this.state.item}
